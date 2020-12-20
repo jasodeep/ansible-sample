@@ -1,0 +1,6 @@
+---
+- name: copy_remote_to_local
+  run_once: true
+  fetch:
+    src: "{{ src_remote_machine_file_path }}"
+    dest: "{{ dest_local_machine_file_path }}"

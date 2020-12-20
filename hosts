@@ -1,0 +1,2 @@
+[my-servers]
+	3.137.136.225 ansible_ssh_private_key_file=/Users/jasodeepchatterjee/Downloads/foobar.pem ansible_ssh_user=ubuntu
